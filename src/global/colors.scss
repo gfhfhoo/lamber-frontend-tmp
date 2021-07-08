@@ -1,0 +1,39 @@
+:root {
+  --btn-green: green;
+  --btn-blue: #0079D3;
+  --btn-orange: #fa8c16;
+  --btn-red: red;
+  --border-grey: grey;
+  --border-grey-50: rgba(128, 128, 128, 0.5);
+  --border-grey-25: rgba(128, 128, 128, 0.25);
+
+  --color-accepted: var(--btn-green);
+  --color-wrong_answer: var(--btn-red);
+  --color-compile_error: #FE9C00;
+  --colorr-tle: var(--border-grey);
+  --color-mle: var(--border-grey);
+  --color-re: var(purple);
+
+  --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-white-mask: #BFC6FF;
+  --color-light-blue: #22a4ea;
+  --color-grey: grey;
+
+  --layout-blue1: rgba(41, 52, 142, 0.95);
+  --layout-blue2: #26C0FE;
+  --layout-light-white: #F4F4FC;
+
+
+  --blackboard: #21313C;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  outline: 0;
+}
+
+body {
+  min-width: 1500px;
+  min-height: 400px;
+}
